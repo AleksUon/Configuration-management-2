@@ -1,0 +1,130 @@
+// Git Commit Dependency Graph
+digraph {
+	compound=true
+	"26317bd64f2507a305f3eca497dd4ecf474dd1db" [label="Commit 26317bd" color=blue shape=ellipse]
+	graphs [label="Folder: graphs" color=grey shape=folder]
+	"graphs/dependency_for_intel-media-driver" [label="File: dependency_for_intel-media-driver" color=green shape=note]
+	"26317bd64f2507a305f3eca497dd4ecf474dd1db" -> graphs
+	graphs -> "graphs/dependency_for_intel-media-driver"
+	"graphs/dependency_graph" [label="File: dependency_graph" color=green shape=note]
+	"26317bd64f2507a305f3eca497dd4ecf474dd1db" -> graphs
+	graphs -> "graphs/dependency_graph"
+	"graphs/dependency_graph.png" [label="File: dependency_graph.png" color=green shape=note]
+	"26317bd64f2507a305f3eca497dd4ecf474dd1db" -> graphs
+	graphs -> "graphs/dependency_graph.png"
+	"main.py" [label="File: main.py" color=green shape=note]
+	"26317bd64f2507a305f3eca497dd4ecf474dd1db" -> ""
+	"" -> "main.py"
+	"test.py" [label="File: test.py" color=green shape=note]
+	"26317bd64f2507a305f3eca497dd4ecf474dd1db" -> ""
+	"" -> "test.py"
+	"9967d9709bdcd5ed24833dbaf68e06e4cbd568a8" [label="Commit 9967d97" color=blue shape=ellipse]
+	"main.py" [label="File: main.py" color=green shape=note]
+	"9967d9709bdcd5ed24833dbaf68e06e4cbd568a8" -> ""
+	"" -> "main.py"
+	d43ba16d78179b926f240112b5e9a55de6157f9b [label="Commit d43ba16" color=blue shape=ellipse]
+	"README.md" [label="File: README.md" color=green shape=note]
+	d43ba16d78179b926f240112b5e9a55de6157f9b -> ""
+	"" -> "README.md"
+	"54ca9e0f26a40311a06f54068445e8ef44bf0736" [label="Commit 54ca9e0" color=blue shape=ellipse]
+	dependency_graph [label="File: dependency_graph" color=green shape=note]
+	"54ca9e0f26a40311a06f54068445e8ef44bf0736" -> ""
+	"" -> dependency_graph
+	"graphs/dependency_graph" [label="File: dependency_graph" color=green shape=note]
+	"54ca9e0f26a40311a06f54068445e8ef44bf0736" -> graphs
+	graphs -> "graphs/dependency_graph"
+	"graphs/dependency_graph.png" [label="File: dependency_graph.png" color=green shape=note]
+	"54ca9e0f26a40311a06f54068445e8ef44bf0736" -> graphs
+	graphs -> "graphs/dependency_graph.png"
+	"main.py" [label="File: main.py" color=green shape=note]
+	"54ca9e0f26a40311a06f54068445e8ef44bf0736" -> ""
+	"" -> "main.py"
+	"9df9ec096037c1b47d72e2f28e724c61d580ac4f" [label="Commit 9df9ec0" color=blue shape=ellipse]
+	dependency_graph [label="File: dependency_graph" color=green shape=note]
+	"9df9ec096037c1b47d72e2f28e724c61d580ac4f" -> ""
+	"" -> dependency_graph
+	"main.py" [label="File: main.py" color=green shape=note]
+	"9df9ec096037c1b47d72e2f28e724c61d580ac4f" -> ""
+	"" -> "main.py"
+	"74b15cc9574df1f65565b35ed17b8dcf4827ff08" [label="Commit 74b15cc" color=blue shape=ellipse]
+	dependency_graph [label="File: dependency_graph" color=green shape=note]
+	"74b15cc9574df1f65565b35ed17b8dcf4827ff08" -> ""
+	"" -> dependency_graph
+	"main.py" [label="File: main.py" color=green shape=note]
+	"74b15cc9574df1f65565b35ed17b8dcf4827ff08" -> ""
+	"" -> "main.py"
+	"8c6ec6ea73df0a62149c87c3c47a25b47e646daa" [label="Commit 8c6ec6e" color=blue shape=ellipse]
+	"main.py" [label="File: main.py" color=green shape=note]
+	"8c6ec6ea73df0a62149c87c3c47a25b47e646daa" -> ""
+	"" -> "main.py"
+	ce74b161d280996b9989c14734028d72391f0964 [label="Commit ce74b16" color=blue shape=ellipse]
+	"README.md" [label="File: README.md" color=green shape=note]
+	ce74b161d280996b9989c14734028d72391f0964 -> ""
+	"" -> "README.md"
+	"main.py" [label="File: main.py" color=green shape=note]
+	ce74b161d280996b9989c14734028d72391f0964 -> ""
+	"" -> "main.py"
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" [label="Commit 9f91ada" color=blue shape=ellipse]
+	".idea" [label="Folder: .idea" color=grey shape=folder]
+	".idea/-Alpine-Linux-apk-depends.iml" [label="File: -Alpine-Linux-apk-depends.iml" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea"
+	".idea" -> ".idea/-Alpine-Linux-apk-depends.iml"
+	".idea/.gitignore" [label="File: .gitignore" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea"
+	".idea" -> ".idea/.gitignore"
+	".idea/inspectionProfiles" [label="Folder: .idea/inspectionProfiles" color=grey shape=folder]
+	".idea/inspectionProfiles/Project_Default.xml" [label="File: Project_Default.xml" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea/inspectionProfiles"
+	".idea/inspectionProfiles" -> ".idea/inspectionProfiles/Project_Default.xml"
+	".idea/inspectionProfiles/profiles_settings.xml" [label="File: profiles_settings.xml" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea/inspectionProfiles"
+	".idea/inspectionProfiles" -> ".idea/inspectionProfiles/profiles_settings.xml"
+	".idea/misc.xml" [label="File: misc.xml" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea"
+	".idea" -> ".idea/misc.xml"
+	".idea/modules.xml" [label="File: modules.xml" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea"
+	".idea" -> ".idea/modules.xml"
+	".idea/vcs.xml" [label="File: vcs.xml" color=green shape=note]
+	"9f91ada42461c5f17bd0e64a2d81265eb7590cb0" -> ".idea"
+	".idea" -> ".idea/vcs.xml"
+	"056c14f293fa6bb2454f5b2bc1891aa25f269ea8" [label="Commit 056c14f" color=blue shape=ellipse]
+	".gitignore" [label="File: .gitignore" color=green shape=note]
+	"056c14f293fa6bb2454f5b2bc1891aa25f269ea8" -> ""
+	"" -> ".gitignore"
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 [label="Commit b1ce925" color=blue shape=ellipse]
+	".gitignore" [label="File: .gitignore" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ""
+	"" -> ".gitignore"
+	".idea/-Alpine-Linux-apk-depends.iml" [label="File: -Alpine-Linux-apk-depends.iml" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea"
+	".idea" -> ".idea/-Alpine-Linux-apk-depends.iml"
+	".idea/.gitignore" [label="File: .gitignore" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea"
+	".idea" -> ".idea/.gitignore"
+	".idea/inspectionProfiles/Project_Default.xml" [label="File: Project_Default.xml" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea/inspectionProfiles"
+	".idea/inspectionProfiles" -> ".idea/inspectionProfiles/Project_Default.xml"
+	".idea/inspectionProfiles/profiles_settings.xml" [label="File: profiles_settings.xml" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea/inspectionProfiles"
+	".idea/inspectionProfiles" -> ".idea/inspectionProfiles/profiles_settings.xml"
+	".idea/misc.xml" [label="File: misc.xml" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea"
+	".idea" -> ".idea/misc.xml"
+	".idea/modules.xml" [label="File: modules.xml" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea"
+	".idea" -> ".idea/modules.xml"
+	".idea/vcs.xml" [label="File: vcs.xml" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ".idea"
+	".idea" -> ".idea/vcs.xml"
+	"README.md" [label="File: README.md" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ""
+	"" -> "README.md"
+	"main.py" [label="File: main.py" color=green shape=note]
+	b1ce925684e4db60924cd1c3a9dbb2cd6186e151 -> ""
+	"" -> "main.py"
+	"755a9857e639f8dd186312591a7f74d180d2fd5b" [label="Commit 755a985" color=blue shape=ellipse]
+	"README.md" [label="File: README.md" color=green shape=note]
+	"755a9857e639f8dd186312591a7f74d180d2fd5b" -> ""
+	"" -> "README.md"
+}

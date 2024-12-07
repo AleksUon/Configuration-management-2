@@ -1,0 +1,5 @@
+<config>
+    <repo_path>reps\-Alpine-Linux-apk-depends</repo_path>
+    <output_path>output_graph</output_path>
+    <commit_date>2024-10-11</commit_date>
+</config>
